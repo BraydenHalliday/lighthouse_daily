@@ -10,7 +10,7 @@ let nmap = function (words, cb) {
 
 
 
-nmap(words, function(word) {
+let a = nmap(words, function(word) {
   return word.length;
 });
 
